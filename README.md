@@ -22,6 +22,26 @@ Official logos, icons, and brand assets for the Macula platform.
 
 - [favicon.ico](favicon.ico)
 
+### SDK Availability Announcement Banner
+
+The long-form Macula logo plus the four shipped SDK badges (Go, Rust,
+PHP, .NET), each linking to its repo. Built for social announcements
+(LinkedIn, etc.) — 1200×630, the widely-safe single-image social post
+size.
+
+| Asset | Link |
+|-------|------|
+| SVG (clickable badges) | [macula-sdk-announcement.svg](svg/macula-sdk-announcement.svg) |
+| PNG, 1200×630 | [macula-sdk-announcement.png](png/macula-sdk-announcement.png) |
+| PNG, 2400×1260 (2x/retina) | [macula-sdk-announcement@2x.png](png/macula-sdk-announcement@2x.png) |
+
+Badge artwork is reused verbatim from each SDK repo's own `assets/`
+(already licensed and reviewed there — see each SDK repo's own README
+License section for that badge's specific attribution). Note that a
+raster export, and any platform that re-encodes an uploaded image (like
+LinkedIn), loses the per-badge repo links baked into the SVG — those
+only work when the SVG itself is viewed or embedded directly.
+
 ## Colors
 
 | Element | Dark Theme | Light Theme |
