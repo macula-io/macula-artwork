@@ -55,6 +55,22 @@ used as each repo's own README badge — macula-cli (terminal), macula-mcp
 | PNG, 1200×630 | [macula-deployables-announcement.png](png/macula-deployables-announcement.png) |
 | PNG, 2400×1260 (2x/retina) | [macula-deployables-announcement@2x.png](png/macula-deployables-announcement@2x.png) |
 
+### Ecosystem Announcement Card
+
+Combines the two banners above into one card: the same long-form logo,
+then the four SDK badges under an "IMPORT" row and the three deployable
+badges under a "RUN" row. All badge artwork reused verbatim from the two
+banners, only the row positions changed. Taller than the single-row
+banners (1200×960, not 1200×630) since seven badges don't fit one
+LinkedIn-safe row — sized for a README hero or a taller post, not the
+strict 1.91:1 safe zone.
+
+| Asset | Link |
+|-------|------|
+| SVG (clickable badges) | [macula-ecosystem-announcement.svg](svg/macula-ecosystem-announcement.svg) |
+| PNG, 1200×960 | [macula-ecosystem-announcement.png](png/macula-ecosystem-announcement.png) |
+| PNG, 2400×1920 (2x/retina) | [macula-ecosystem-announcement@2x.png](png/macula-ecosystem-announcement@2x.png) |
+
 ### Macrel — the mesh mascot (speculative)
 
 A fish built from the same node-and-line vocabulary as the plain mesh
