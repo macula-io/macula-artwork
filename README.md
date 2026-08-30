@@ -58,16 +58,17 @@ used as each repo's own README badge — macula-cli (terminal), macula-mcp
 ### Ecosystem Announcement Card
 
 Combines the two banners above into one card, under the same long-form
-logo: a **BUILD** row splits into the four dedicated-port SDK badges
-(Go/Rust/PHP/.NET) and a second sub-row for the three languages that need
-no port because they already run on the BEAM (Erlang — badge is Macrel,
-see below — Elixir, Gleam), then a **RUN** row with the three deployable
-badges. SDK and deployable badge artwork reused verbatim from the two
-banners; the BEAM-native sub-row is original artwork (Erlang's Macrel
-plus simplified Elixir/Gleam marks, not verbatim brand assets). Taller
-than the single-row banners (1200×1240, not 1200×630) since ten badges
-don't fit one LinkedIn-safe row — sized for a README hero or a taller
-post, not the strict 1.91:1 safe zone.
+logo: a **BUILD** row splits into the three dedicated-port SDK badges
+(Go/Rust/.NET — PHP dropped from this card only, for a clean 3×3 grid;
+its own SDK repo and the original SDK banner are untouched) and a second
+sub-row for the three languages that need no port because they already
+run on the BEAM (Erlang, Elixir, Gleam), then a **RUN** row with the three
+deployable badges. SDK, Erlang, and deployable badges are verbatim brand
+marks; Elixir/Gleam are original simplified renditions (no local asset to
+reuse verbatim, unlike the others). Taller than the single-row banners
+(1200×1240, not 1200×630) since nine badges don't fit one LinkedIn-safe
+row — sized for a README hero or a taller post, not the strict 1.91:1
+safe zone.
 
 | Asset | Link |
 |-------|------|
@@ -86,8 +87,9 @@ currently un-suffixed while its ports are
 or Rust's crab represent theirs. Lives at badge scale only — sits in a
 `macula-erl` full-logo mockup for if a `macula → macula-erl` rename ever
 actually happens (**not an executed rename** — the core package, its hex
-name, and every consumer's dependency stay exactly as they are today), and
-in the ecosystem card above as the "Erlang" badge.
+name, and every consumer's dependency stay exactly as they are today).
+The ecosystem card above uses the real Erlang/OTP mark for its "Erlang"
+badge instead, so Macrel doesn't appear there.
 
 | Variant | SVG |
 |---------|-----|
