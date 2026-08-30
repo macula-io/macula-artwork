@@ -115,7 +115,7 @@
 
   <line x1="340.0" y1="342" x2="860.0" y2="342" stroke="#1E293B" stroke-width="1"/>
 
-  <a href="https://github.com/macula-io/macula-go-sdk" target="_blank" rel="noopener">
+  <a href="https://github.com/macula-io/macula-go" target="_blank" rel="noopener">
     <g transform="translate(-89.54, 86.46) scale(6.7692)">
       <circle cx="54" cy="54" r="13" fill="#F8FAFC" stroke="#0EA5E9" stroke-width="2"/>
   <g transform="translate(45.38, 42.00) scale(0.04290)">
@@ -187,7 +187,7 @@
           font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
           font-size="22" font-weight="600" fill="#E2E8F0">Go</text>
   </a>
-  <a href="https://github.com/macula-io/macula-rust-sdk" target="_blank" rel="noopener">
+  <a href="https://github.com/macula-io/macula-rust" target="_blank" rel="noopener">
     <g transform="translate(234.46, 86.46) scale(6.7692)">
       <circle cx="54" cy="54" r="13" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
   <g transform="translate(43.00, 43.00) scale(0.1528)" fill="#0C1929">
@@ -200,7 +200,7 @@
           font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
           font-size="22" font-weight="600" fill="#E2E8F0">Rust</text>
   </a>
-  <a href="https://github.com/macula-io/macula-dotnet-sdk" target="_blank" rel="noopener">
+  <a href="https://github.com/macula-io/macula-dotnet" target="_blank" rel="noopener">
     <g transform="translate(558.46, 86.46) scale(6.7692)">
       <circle cx="54" cy="54" r="13" fill="#512BD4" stroke="#0EA5E9" stroke-width="2"/>
   <g transform="translate(43.000, 43.000) scale(0.048246)"><path d="M81.2738 291.333C78.0496 291.333 75.309 290.259 73.052 288.11C70.795 285.906 69.6665 283.289 69.6665 280.259C69.6665 277.173 70.795 274.529 73.052 272.325C75.309 270.121 78.0496 269.019 81.2738 269.019C84.5518 269.019 87.3193 270.121 89.5763 272.325C91.887 274.529 93.0424 277.173 93.0424 280.259C93.0424 283.289 91.887 285.906 89.5763 288.11C87.3193 290.259 84.5518 291.333 81.2738 291.333Z" fill="white"/><path d="M210.167 289.515H189.209L133.994 202.406C132.597 200.202 131.441 197.915 130.528 195.546H130.044C130.474 198.081 130.689 203.508 130.689 211.827V289.515H112.149V171H134.477L187.839 256.043C190.096 259.57 191.547 261.994 192.192 263.316H192.514C191.977 260.176 191.708 254.859 191.708 247.365V171H210.167V289.515Z" fill="white"/><path d="M300.449 289.515H235.561V171H297.87V187.695H254.746V221.249H294.485V237.861H254.746V272.903H300.449V289.515Z" fill="white"/><path d="M392.667 187.695H359.457V289.515H340.272V187.695H307.143V171H392.667V187.695Z" fill="white"/></g>
