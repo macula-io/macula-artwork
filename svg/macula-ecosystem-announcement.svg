@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Macula ecosystem announcement card. Combines macula-sdk-announcement.svg
-     (Go/Rust/PHP/.NET, the SDKs you import) and macula-deployables-announcement.svg
-     (macula-cli/macula-mcp/macula-station, the tools you run) into one card,
-     stacked as two labeled rows under the same long-form logo. All badge
-     artwork reused verbatim from those two files, not redrawn — only the
-     row positions changed. Taller than the two single-row banners (1200x960
-     instead of 1200x630) since seven badges don't fit one LinkedIn-safe row;
-     this one is sized for a README hero or a taller social post, not the
-     strict 1.91:1 safe zone. Each badge links to its repo; a raster export
-     (PNG, and anything a platform like LinkedIn re-encodes on upload) loses
-     that link, since only the SVG itself is clickable. -->
+<!-- Macula ecosystem announcement card. Three groups under one long-form
+     logo: BUILD splits into the four dedicated-port SDK badges
+     (Go/Rust/PHP/.NET, reused verbatim from macula-sdk-announcement.svg)
+     and a second sub-row for the three languages that need no port at all
+     because they're already the BEAM (Erlang/Elixir/Gleam - Erlang's badge
+     is Macrel, macula's own mascot; Elixir/Gleam are original simplified
+     renditions of their marks, not verbatim brand assets like the SDK
+     badges are); RUN carries the three deployable badges
+     (macula-cli/macula-mcp/macula-station, reused verbatim from
+     macula-deployables-announcement.svg). 1200x1240 - taller than the two
+     single-row banners (1200x630) since ten badges don't fit one
+     LinkedIn-safe row; this one is sized for a README hero or a taller
+     post, not the strict 1.91:1 safe zone. Each badge links to its repo or
+     home page; a raster export (PNG, and anything a platform like
+     LinkedIn re-encodes on upload) loses that link, since only the SVG
+     itself is clickable. -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 0 1200 960" width="1200" height="960">
-  <rect width="1200" height="960" fill="#0B1220"/>
+     viewBox="0 0 1200 1240" width="1200" height="1240">
+  <rect width="1200" height="1240" fill="#0B1220"/>
 
   <g transform="translate(192.00, 70.00) scale(3.4)">
 
@@ -104,7 +109,7 @@
   <!-- Row 1: SDKs (import these) -->
   <text x="600.0" y="316" text-anchor="middle"
         font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
-        font-size="15" font-weight="500" letter-spacing="3px" fill="#64748B">IMPORT</text>
+        font-size="15" font-weight="500" letter-spacing="3px" fill="#64748B">BUILD</text>
 
   <line x1="340.0" y1="342" x2="860.0" y2="342" stroke="#1E293B" stroke-width="1"/>
 
@@ -255,27 +260,85 @@
           font-size="22" font-weight="600" fill="#E2E8F0">.NET</text>
   </a>
 
+  <!-- Row 1b: native on the BEAM, no port needed - macula direct -->
+  <text x="600.0" y="614.0" text-anchor="middle"
+        font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
+        font-size="14" fill="#64748B">or use macula directly on the BEAM</text>
+
+  <a href="https://github.com/macula-io/macula" target="_blank" rel="noopener">
+    <g transform="translate(-89.54, 358.46) scale(6.7692)">
+      <circle cx="54" cy="54" r="13" fill="#F8FAFC" stroke="#0EA5E9" stroke-width="2"/>
+      <g transform="translate(42, 42)">
+        <path d="M9,12 L3,5 L6.5,12 L3,19 Z" fill="#0284C7" stroke="#0C1929" stroke-width="0.8" stroke-linejoin="round"/>
+        <path d="M9,12 C9,6.5 14,4 17,4 C20.5,4 22,8 22,12 C22,16 20.5,20 17,20 C14,20 9,17.5 9,12 Z"
+              fill="#0EA5E9" stroke="#0C1929" stroke-width="0.8"/>
+        <path d="M10,14 C11,17 14,18.5 17,18 C19,17.5 20,15.5 20,14 C18,16.5 12,16.5 10,14 Z" fill="#F8FAFC"/>
+        <path d="M13,5 L15,1.5 L17.5,5 Z" fill="#0284C7" stroke="#0C1929" stroke-width="0.8" stroke-linejoin="round"/>
+        <path d="M13,18.5 L11.5,22 L16,20 Z" fill="#0284C7" stroke="#0C1929" stroke-width="0.8" stroke-linejoin="round"/>
+        <g fill="none" stroke="#0C1929" stroke-width="1" stroke-linecap="round">
+          <path d="M11,7 Q12.5,6 14,7"/>
+          <path d="M14,6.5 Q15.5,5.5 17,6.5"/>
+          <path d="M17,7 Q18.5,6.5 20,7.5"/>
+        </g>
+        <circle cx="18.5" cy="9" r="2" fill="#F8FAFC" stroke="#0C1929" stroke-width="0.5"/>
+        <circle cx="19" cy="9" r="1" fill="#0C1929"/>
+        <circle cx="19.3" cy="8.5" r="0.4" fill="#F8FAFC"/>
+        <path d="M22,12 Q23.5,12 23.5,13.5" fill="none" stroke="#0C1929" stroke-width="0.8" stroke-linecap="round"/>
+      </g>
+    </g>
+    <text x="276.0" y="846.0" text-anchor="middle"
+          font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
+          font-size="22" font-weight="600" fill="#E2E8F0">Erlang</text>
+  </a>
+  <a href="https://elixir-lang.org" target="_blank" rel="noopener">
+    <g transform="translate(234.46, 358.46) scale(6.7692)">
+      <circle cx="54" cy="54" r="13" fill="#F8FAFC" stroke="#0EA5E9" stroke-width="2"/>
+      <g transform="translate(42, 42)">
+        <path d="M14,3 C18,7 20,12 18,17 C16,21 10,21 8,17 C6,13 8,9 11,6 C12,5 13,4 14,3 Z"
+              fill="#7B4FA0" stroke="#0C1929" stroke-width="0.8"/>
+        <ellipse cx="12.5" cy="8" rx="1.6" ry="2.4" fill="#D9C7EC" opacity="0.85" transform="rotate(-20 12.5 8)"/>
+      </g>
+    </g>
+    <text x="600.0" y="846.0" text-anchor="middle"
+          font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
+          font-size="22" font-weight="600" fill="#E2E8F0">Elixir</text>
+  </a>
+  <a href="https://gleam.run" target="_blank" rel="noopener">
+    <g transform="translate(558.46, 358.46) scale(6.7692)">
+      <circle cx="54" cy="54" r="13" fill="#F8FAFC" stroke="#0EA5E9" stroke-width="2"/>
+      <g transform="translate(42, 42)">
+        <path d="M13,1 L16,8 L23,11 L16,14 L13,21 L10,14 L3,11 L10,8 Z" fill="#EC4899" stroke="#0C1929" stroke-width="0.8" stroke-linejoin="round"/>
+        <circle cx="11" cy="11" r="0.9" fill="#0C1929"/>
+        <circle cx="15" cy="11" r="0.9" fill="#0C1929"/>
+        <path d="M11,13 Q13,15.2 15,13" fill="none" stroke="#0C1929" stroke-width="0.9" stroke-linecap="round"/>
+      </g>
+    </g>
+    <text x="924.0" y="846.0" text-anchor="middle"
+          font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
+          font-size="22" font-weight="600" fill="#E2E8F0">Gleam</text>
+  </a>
+
   <!-- Row 2: deployables (run these) -->
-  <text x="600.0" y="634.0" text-anchor="middle"
+  <text x="600.0" y="906.0" text-anchor="middle"
         font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
         font-size="15" font-weight="500" letter-spacing="3px" fill="#64748B">RUN</text>
 
-  <line x1="340.0" y1="660.0" x2="860.0" y2="660.0" stroke="#1E293B" stroke-width="1"/>
+  <line x1="340.0" y1="932.0" x2="860.0" y2="932.0" stroke="#1E293B" stroke-width="1"/>
 
   <a href="https://github.com/macula-io/macula-cli" target="_blank" rel="noopener">
-    <g transform="translate(-89.54, 402.46) scale(6.7692)">
+    <g transform="translate(-89.54, 676.46) scale(6.7692)">
       <circle cx="54" cy="54" r="13" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
       <g transform="translate(42, 42)" stroke="#F8FAFC" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
         <path d="M7,7 L13,12 L7,17"/>
         <line x1="14" y1="17" x2="19" y2="17"/>
       </g>
     </g>
-    <text x="276.0" y="890.0" text-anchor="middle"
+    <text x="276.0" y="1164.0" text-anchor="middle"
           font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
           font-size="22" font-weight="600" fill="#E2E8F0">CLI</text>
   </a>
   <a href="https://github.com/macula-io/macula-mcp" target="_blank" rel="noopener">
-    <g transform="translate(234.46, 402.46) scale(6.7692)">
+    <g transform="translate(234.46, 676.46) scale(6.7692)">
       <circle cx="54" cy="54" r="13" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
       <g transform="translate(42, 42)" stroke="#F8FAFC" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
         <path d="M9,10 L9,17 A3,3 0 0 0 12,20 L14,20 A3,3 0 0 0 17,17 L17,10"/>
@@ -284,12 +347,12 @@
         <line x1="13" y1="20" x2="13" y2="24"/>
       </g>
     </g>
-    <text x="600.0" y="890.0" text-anchor="middle"
+    <text x="600.0" y="1164.0" text-anchor="middle"
           font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
           font-size="22" font-weight="600" fill="#E2E8F0">MCP</text>
   </a>
   <a href="https://github.com/macula-io/macula-station" target="_blank" rel="noopener">
-    <g transform="translate(558.46, 402.46) scale(6.7692)">
+    <g transform="translate(558.46, 676.46) scale(6.7692)">
       <circle cx="54" cy="54" r="13" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
       <g transform="translate(42, 42)">
         <path d="M12,22 L12,8 M8,22 L12,14 L16,22 M6,22 L18,22"
@@ -302,12 +365,12 @@
         <path d="M6.5,2 A6,6 0 0 0 6.5,10" fill="none" stroke="#38BDF8" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
       </g>
     </g>
-    <text x="924.0" y="890.0" text-anchor="middle"
+    <text x="924.0" y="1164.0" text-anchor="middle"
           font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
           font-size="22" font-weight="600" fill="#E2E8F0">Station</text>
   </a>
 
-  <text x="600.0" y="930.0" text-anchor="middle"
+  <text x="600.0" y="1204.0" text-anchor="middle"
         font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,monospace"
         font-size="16" fill="#475569">github.com/macula-io</text>
 </svg>

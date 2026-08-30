@@ -57,40 +57,37 @@ used as each repo's own README badge — macula-cli (terminal), macula-mcp
 
 ### Ecosystem Announcement Card
 
-Combines the two banners above into one card: the same long-form logo,
-then the four SDK badges under an "IMPORT" row and the three deployable
-badges under a "RUN" row. All badge artwork reused verbatim from the two
-banners, only the row positions changed. Taller than the single-row
-banners (1200×960, not 1200×630) since seven badges don't fit one
-LinkedIn-safe row — sized for a README hero or a taller post, not the
-strict 1.91:1 safe zone.
+Combines the two banners above into one card, under the same long-form
+logo: a **BUILD** row splits into the four dedicated-port SDK badges
+(Go/Rust/PHP/.NET) and a second sub-row for the three languages that need
+no port because they already run on the BEAM (Erlang — badge is Macrel,
+see below — Elixir, Gleam), then a **RUN** row with the three deployable
+badges. SDK and deployable badge artwork reused verbatim from the two
+banners; the BEAM-native sub-row is original artwork (Erlang's Macrel
+plus simplified Elixir/Gleam marks, not verbatim brand assets). Taller
+than the single-row banners (1200×1240, not 1200×630) since ten badges
+don't fit one LinkedIn-safe row — sized for a README hero or a taller
+post, not the strict 1.91:1 safe zone.
 
 | Asset | Link |
 |-------|------|
 | SVG (clickable badges) | [macula-ecosystem-announcement.svg](svg/macula-ecosystem-announcement.svg) |
-| PNG, 1200×960 | [macula-ecosystem-announcement.png](png/macula-ecosystem-announcement.png) |
-| PNG, 2400×1920 (2x/retina) | [macula-ecosystem-announcement@2x.png](png/macula-ecosystem-announcement@2x.png) |
+| PNG, 1200×1240 | [macula-ecosystem-announcement.png](png/macula-ecosystem-announcement.png) |
+| PNG, 2400×2480 (2x/retina) | [macula-ecosystem-announcement@2x.png](png/macula-ecosystem-announcement@2x.png) |
 
-### Macrel — the mesh mascot (speculative)
+### Macrel — the Erlang mascot (speculative)
 
-A fish built from the same node-and-line vocabulary as the plain mesh
-symbol above, arranged into a mackerel instead of an abstract mesh — the
-central hub doubles as its eye, two orange chords across the back stand in
-for tiger stripes. Sketched alongside a joke about renaming the Erlang/OTP
-core (`macula-io/macula`, currently un-suffixed while its ports are
-`macula-go`/`macula-rust`/`macula-php`/`macula-dotnet`) to `macula-erl` for
-naming consistency. **Not an executed rename** — the core package, its hex
-name, and every consumer's dependency stay exactly as they are today; this
-is art, not a migration.
-
-| Variant | SVG | PNG |
-|---------|-----|-----|
-| Dark theme | [macrel-mascot-dark.svg](svg/macrel-mascot-dark.svg) | [128](png/macrel-mascot-dark-128.png) · [256](png/macrel-mascot-dark-256.png) · [512](png/macrel-mascot-dark-512.png) · [1024](png/macrel-mascot-dark-1024.png) |
-| Light theme | [macrel-mascot-light.svg](svg/macrel-mascot-light.svg) | [128](png/macrel-mascot-light-128.png) · [256](png/macrel-mascot-light-256.png) · [512](png/macrel-mascot-light-512.png) · [1024](png/macrel-mascot-light-1024.png) |
-
-A badge-scale version of the same fish, simplified the way the CLI/MCP/
-Station badges are, sits in a `macula-erl` full-logo mockup for if the
-rename ever actually happens:
+A small mackerel mascot, filled-illustration style like the Go/Rust/PHP
+badges rather than macula's own CLI/MCP/Station line-icon convention — a
+proper little character (body, back stripes, forked tail, a grin), not an
+abstract construction. Represents the Erlang/OTP core (`macula-io/macula`,
+currently un-suffixed while its ports are
+`macula-go`/`macula-rust`/`macula-php`/`macula-dotnet`) the way Go's gopher
+or Rust's crab represent theirs. Lives at badge scale only — sits in a
+`macula-erl` full-logo mockup for if a `macula → macula-erl` rename ever
+actually happens (**not an executed rename** — the core package, its hex
+name, and every consumer's dependency stay exactly as they are today), and
+in the ecosystem card above as the "Erlang" badge.
 
 | Variant | SVG |
 |---------|-----|
