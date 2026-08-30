@@ -42,6 +42,45 @@ raster export, and any platform that re-encodes an uploaded image (like
 LinkedIn), loses the per-badge repo links baked into the SVG — those
 only work when the SVG itself is viewed or embedded directly.
 
+### Deployables Announcement Banner
+
+Same layout as the SDK banner above, with the three badge icons already
+used as each repo's own README badge — macula-cli (terminal), macula-mcp
+(plug), macula-station (radio tower) — reused verbatim from
+`macula-{cli,mcp,station}/assets/macula-*-full-*.svg`. Also 1200×630.
+
+| Asset | Link |
+|-------|------|
+| SVG (clickable badges) | [macula-deployables-announcement.svg](svg/macula-deployables-announcement.svg) |
+| PNG, 1200×630 | [macula-deployables-announcement.png](png/macula-deployables-announcement.png) |
+| PNG, 2400×1260 (2x/retina) | [macula-deployables-announcement@2x.png](png/macula-deployables-announcement@2x.png) |
+
+### Macrel — the mesh mascot (speculative)
+
+A fish built from the same node-and-line vocabulary as the plain mesh
+symbol above, arranged into a mackerel instead of an abstract mesh — the
+central hub doubles as its eye, two orange chords across the back stand in
+for tiger stripes. Sketched alongside a joke about renaming the Erlang/OTP
+core (`macula-io/macula`, currently un-suffixed while its ports are
+`macula-go`/`macula-rust`/`macula-php`/`macula-dotnet`) to `macula-erl` for
+naming consistency. **Not an executed rename** — the core package, its hex
+name, and every consumer's dependency stay exactly as they are today; this
+is art, not a migration.
+
+| Variant | SVG | PNG |
+|---------|-----|-----|
+| Dark theme | [macrel-mascot-dark.svg](svg/macrel-mascot-dark.svg) | [128](png/macrel-mascot-dark-128.png) · [256](png/macrel-mascot-dark-256.png) · [512](png/macrel-mascot-dark-512.png) · [1024](png/macrel-mascot-dark-1024.png) |
+| Light theme | [macrel-mascot-light.svg](svg/macrel-mascot-light.svg) | [128](png/macrel-mascot-light-128.png) · [256](png/macrel-mascot-light-256.png) · [512](png/macrel-mascot-light-512.png) · [1024](png/macrel-mascot-light-1024.png) |
+
+A badge-scale version of the same fish, simplified the way the CLI/MCP/
+Station badges are, sits in a `macula-erl` full-logo mockup for if the
+rename ever actually happens:
+
+| Variant | SVG |
+|---------|-----|
+| Dark theme | [macula-erl-full-dark.svg](svg/macula-erl-full-dark.svg) |
+| Light theme | [macula-erl-full-light.svg](svg/macula-erl-full-light.svg) |
+
 ## Colors
 
 | Element | Dark Theme | Light Theme |
