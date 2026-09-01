@@ -76,6 +76,21 @@ safe zone.
 | PNG, 1200×1240 | [macula-ecosystem-announcement.png](png/macula-ecosystem-announcement.png) |
 | PNG, 2400×2480 (2x/retina) | [macula-ecosystem-announcement@2x.png](png/macula-ecosystem-announcement@2x.png) |
 
+### Agent-Mesh Architecture Diagram
+
+Not a product announcement like the banners/card above — an honest picture
+of one real workflow: a coding agent (Claude Code) reaches the mesh
+through macula-mcp and calls real, deployed edge services (hecate-graph,
+hecate-llm, hecate-rag, hecate-sentinel, hecate-mail, hecate-stations),
+not a roadmap. macula-mcp's plug badge and the mesh-node motif are reused
+verbatim from the deployables banner above. 1200×630, LinkedIn-safe.
+
+| Asset | Link |
+|-------|------|
+| SVG | [macula-agent-mesh-architecture.svg](svg/macula-agent-mesh-architecture.svg) |
+| PNG, 1200×630 | [macula-agent-mesh-architecture.png](png/macula-agent-mesh-architecture.png) |
+| PNG, 2400×1260 (2x/retina) | [macula-agent-mesh-architecture@2x.png](png/macula-agent-mesh-architecture@2x.png) |
+
 ### Macrel — the Erlang mascot (speculative)
 
 A small mackerel mascot, filled-illustration style like the Go/Rust/PHP
