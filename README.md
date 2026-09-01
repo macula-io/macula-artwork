@@ -82,8 +82,11 @@ Not a product announcement like the banners/card above — an honest picture
 of one real workflow: a coding agent (Claude Code) reaches the mesh
 through macula-mcp and calls real, deployed edge services (hecate-graph,
 hecate-llm, hecate-rag, hecate-sentinel, hecate-mail, hecate-stations),
-not a roadmap. macula-mcp's plug badge and the mesh-node motif are reused
-verbatim from the deployables banner above. 1200×630, LinkedIn-safe.
+not a roadmap. Introduces this repo's hub-and-spoke convention for
+architecture diagrams: the mesh itself as a central circle with
+`macula-symbol-dark.svg` embedded verbatim inside it, services arranged
+radially around it. macula-mcp's plug badge is reused verbatim from the
+deployables banner above. 1200×630, LinkedIn-safe.
 
 | Asset | Link |
 |-------|------|
