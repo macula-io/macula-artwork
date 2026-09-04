@@ -24,8 +24,8 @@ Official logos, icons, and brand assets for the Macula platform.
 
 ### SDK Availability Announcement Banner
 
-The long-form Macula logo plus the four shipped SDK badges (Go, Rust,
-PHP, .NET), each linking to its repo. Built for social announcements
+The long-form Macula logo plus the five shipped SDK badges (Go, Rust,
+PHP, .NET, TypeScript), each linking to its repo. Built for social announcements
 (LinkedIn, etc.) — 1200×630, the widely-safe single-image social post
 size.
 
