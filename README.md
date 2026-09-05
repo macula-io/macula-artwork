@@ -24,18 +24,15 @@ Official logos, icons, and brand assets for the Macula platform.
 
 ### SDK Availability Announcement Banner
 
-The long-form Macula logo plus the five actively-maintained SDK badges
-(Go, Rust, PHP, .NET, TypeScript), each linking to its repo. Built for
-social announcements (LinkedIn, etc.) — 1200×630, the widely-safe
-single-image social post size.
+The long-form Macula logo plus the six actively-maintained SDK badges
+(Go, Rust, PHP, .NET, TypeScript, Python), each linking to its repo.
+Built for social announcements (LinkedIn, etc.) — 1200×630, the
+widely-safe single-image social post size.
 
-A sixth badge (macula-py) is staged, not live, at
-[macula-sdk-announcement-pending-python.svg](svg/macula-sdk-announcement-pending-python.svg) —
-swap it in once macula-py actually publishes to PyPI (as of 2026-09 it
-has nothing published there yet, and its intended package name `macula`
-is already taken by an unrelated project, so a rename is needed first
-too). No PNG export exists for the pending file; only the live banner
-gets raster exports.
+Python's badge was promoted from a staged, not-yet-live variant on
+2026-09-05, the day macula-py actually published to PyPI (as `macula-py`
+0.1.0 — its originally-intended package name, `macula`, was already
+taken by an unrelated project, so it published under this name instead).
 
 | Asset | Link |
 |-------|------|
