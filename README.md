@@ -57,14 +57,25 @@ the languages that need no port at all since they already run natively
 on the BEAM. All three link to `macula-io/macula`, the one repo they
 actually call into.
 
-Erlang/Elixir/Gleam have no verbatim brand asset to reuse here (unlike
-the SDK badges), so they follow this banner's own existing fallback
-convention instead — a solid brand-color circle plus a short letter
-glyph, the same treatment already used for TypeScript's "TS" and
-.NET's mark: Erlang `#A90533` / "ER", Elixir `#4B275F` / "EX", Gleam
-`#FFAFF3` / "GL" (dark text, for contrast against the light fill).
-These are plain color-and-initials badges, not a redraw of either
-language's actual logo mark.
+Erlang, Elixir, and Gleam are real, verbatim logo marks (revised
+2026-09-08 — an earlier version of this card used a solid-color-circle
+plus letter-monogram placeholder here, which undersold languages that
+do have real recognizable marks, the same category as Go's gopher,
+Rust's gear, and PHP's mark already in this poster):
+
+- **Erlang** — the real Erlang/OTP "e" bracket mark (Ericsson red
+  `#A90533`), reused verbatim from this repo's own
+  macula-ecosystem-announcement.svg.
+- **Elixir** — the symbol from
+  [elixir-lang/elixir-lang.github.com](https://github.com/elixir-lang/elixir-lang.github.com)'s
+  own `public/downloads/logos/elixir-dark.svg` — that project's own
+  official downloadable logo asset. Wordmark half of that file dropped;
+  this card already labels every badge with its own text underneath.
+- **Gleam** — Lucy (the project's real mascot) from
+  [gleam-lang/website](https://github.com/gleam-lang/website)'s own
+  `priv/images/lucy-circle.svg` — charcoal `#282828` strokes on the
+  brand's own pink `#FFAFF3` circle, exactly as gleam-lang presents her,
+  path data and colors untouched.
 
 Built for a taller placement (a README hero, a page section) rather
 than the strict 1.91:1 social safe zone the 6-badge banner targets —
