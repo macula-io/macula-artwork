@@ -47,6 +47,39 @@ raster export, and any platform that re-encodes an uploaded image (like
 LinkedIn), loses the per-badge repo links baked into the SVG — those
 only work when the SVG itself is viewed or embedded directly.
 
+### Full-Lineup Announcement Card
+
+The 3×3 version of the banner above: the same six SDK badges (Go, Rust,
+PHP, .NET, TypeScript, Python — pixel-identical to the ones in
+macula-sdk-announcement.svg, same discipline of reusing each repo's own
+badge art verbatim) plus three new badges for Erlang, Elixir, and Gleam,
+the languages that need no port at all since they already run natively
+on the BEAM. All three link to `macula-io/macula`, the one repo they
+actually call into.
+
+Erlang/Elixir/Gleam have no verbatim brand asset to reuse here (unlike
+the SDK badges), so they follow this banner's own existing fallback
+convention instead — a solid brand-color circle plus a short letter
+glyph, the same treatment already used for TypeScript's "TS" and
+.NET's mark: Erlang `#A90533` / "ER", Elixir `#4B275F` / "EX", Gleam
+`#FFAFF3` / "GL" (dark text, for contrast against the light fill).
+These are plain color-and-initials badges, not a redraw of either
+language's actual logo mark.
+
+Built for a taller placement (a README hero, a page section) rather
+than the strict 1.91:1 social safe zone the 6-badge banner targets —
+1200×1220.
+
+| Asset | Link |
+|-------|------|
+| SVG (clickable badges) | [macula-sdk-full-announcement.svg](svg/macula-sdk-full-announcement.svg) |
+| PNG, 1200×1220 | [macula-sdk-full-announcement.png](png/macula-sdk-full-announcement.png) |
+| PNG, 2400×2440 (2x/retina) | [macula-sdk-full-announcement@2x.png](png/macula-sdk-full-announcement@2x.png) |
+
+Same raster caveat as the banner above: only the SVG itself is
+clickable — a PNG export, or a platform that re-encodes an uploaded
+image, loses the per-badge links.
+
 ### Deployables Announcement Banner
 
 Same layout as the SDK banner above, with the three badge icons already
