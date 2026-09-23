@@ -183,6 +183,14 @@ Wordmark uses monospace: JetBrains Mono, Fira Code, SF Mono, Consolas.
 - **All PNGs are transparent** — no background baked in
 - **SVG is preferred** for web and print — scales to any size
 
+## Third-party marks
+
+- [`partners/nvidia-inception/`](partners/nvidia-inception/): the NVIDIA
+  Inception Program member badge. NVIDIA's trademark and artwork, used by Macula
+  as a program member under NVIDIA's badge guidelines. See that directory's
+  README for the rules it is used under.
+
 ## License
 
-Apache-2.0
+Apache-2.0, for Macula's own artwork. Everything under `partners/` belongs to
+its respective owner and is not covered by this license.
